@@ -7,8 +7,8 @@ export default function Footer() {
         <li>JavaScript</li>
         <li>React</li>
       </ul>
-      <p>함께 짜볼까요?</p>
-      <p>© Kim Seo Young</p>
+      <p>Shall we weave together?</p>
+      <p>©The code weaver</p>
     </footer>
   );
 }
