@@ -1,10 +1,10 @@
 import {motion,useScroll,useTransform} from "framer-motion";
 
-export default function Hero(){
-    return (
+export default function Hero() {
+  return (
     <section id="hero">
-        <h1>The code weaver</h1>
-        <p>Kim Seo Yong</p>
+      <h1 style={{ fontSize: "5rem" }}>The Weaver</h1>
+      <p style={{ marginTop: "20px" }}>scroll ↓</p>
     </section>
-        );
+  );
 }
