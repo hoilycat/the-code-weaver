@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="333.28302mm"
+   height="165.31133mm"
+   viewBox="0 0 333.28302 165.31132"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   sodipodi:docname="바늘.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.37772166"
+     inkscape:cx="671.12911"
+     inkscape:cy="325.63661"
+     inkscape:window-width="1512"
+     inkscape:window-height="839"
+     inkscape:window-x="2333"
+     inkscape:window-y="248"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="바늘"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(84.757076,-100.86792)">
+    <path
+       id="path29-8-1-8"
+       style="fill:#213448;fill-opacity:1;stroke-width:0.434654;stroke-linecap:round;stroke-linejoin:round"
+       d="m -78.7785,119.45072 c -4.0224,6.6213 -2.1418,15.393 4.2004,19.59239 4.375,2.88484 9.9393,2.92747 14.3545,0.10997 L 95.0626,241.96762 c 7.4307,3.91756 14.88,7.8033 22.322,11.69936 0,0 2.9078,2.37189 4.7135,-0.60034 1.7089,-2.81303 -1.5771,-4.91409 -1.5771,-4.91409 l -19.0962,-16.43886 c 0,0 -103.4822,-68.56748 -155.2417,-102.82057 0.6866,-5.47482 -1.7297,-10.86857 -6.1947,-13.82806 -6.3424,-4.1991 -14.7446,-2.23564 -18.7669,4.38566 z"
+       sodipodi:nodetypes="cccccsccccc"
+       inkscape:label="왼쪽 바늘" />
+    <path
+       id="path29-0-7-7-2"
+       style="fill:#213448;fill-opacity:1;stroke-width:0.434654;stroke-linecap:round;stroke-linejoin:round"
+       d="m 240.8313,115.551 c -4.1884,-6.50715 -12.6372,-8.23615 -18.8714,-3.86208 -4.2898,3.02219 -6.5657,8.32367 -5.871,13.67689 L 63.4558,232.46362 c -6.4247,5.52749 -12.8291,11.08599 -19.2397,16.63318 0,0 -3.2499,1.82604 -1.3698,4.74685 1.7795,2.76449 4.944,0.46816 4.944,0.46816 l 22.0983,-11.64432 c 0,0 101.7599,-71.34832 152.6205,-107.0525 4.5249,2.85742 10.227,2.7162 14.6185,-0.36183 6.234,-4.37427 7.8923,-13.1953 3.7037,-19.70216 z"
+       sodipodi:nodetypes="cccccsccccc"
+       inkscape:label="오른쪽 바늘" />
+  </g>
+</svg>
