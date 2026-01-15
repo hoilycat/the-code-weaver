@@ -4,7 +4,7 @@ import bneedle from "../assets/images/bneedle.svg";
 
 export default function Footer() {
   return (
-    <footer style={{ 
+    <footer id="Footer" style={{ 
       backgroundColor: 'var(--dark-color)', 
       color: 'var(--bg-color)', 
       padding: '100px 0 20px 0',

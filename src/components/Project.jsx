@@ -39,8 +39,8 @@ export default function Project() {
   }, []);
 
   return (
-    <section className="project-section" ref={sectionRef}>
-      <h3 id="project-title" >Project</h3>
+    <section id="Projects" className="project-section" ref={sectionRef}>
+      <h3 id="project-title" >Projects</h3>
       <div className="woven-grid">
         {projects.map((project, index) => (
           <div 
