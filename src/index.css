@@ -12,8 +12,8 @@ h1 {
 }
 
 @font-face {
-  font-family: "superclarendon";
-  src: url("/assets/fonts/superclarendon-bl-587272f656611.ttf") format("ttf");
+  font-family: "Superclarendon";
+  src: url("./assets/fonts/superclarendon-bl-587272f656611.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   unicode-range: U+0000-00FF; /* 영어 + 기본 라틴 */
@@ -21,7 +21,7 @@ h1 {
 
 @font-face {
   font-family: "RIDIBatang";
-  src: url("/assets/fonts/RIDIBatang.otf") format("otf");
+  src: url("./assets/fonts/RIDIBatang.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   unicode-range: U+AC00-D7A3; /* 한글 음절 */
@@ -35,7 +35,7 @@ body {
   background-color: var(--bg-color);
   font-family: 
     "RIDIBatang",
-    "superclarendon",
+    "Superclarendon",
     sans-serif;
   color: var(--text-main);
 }

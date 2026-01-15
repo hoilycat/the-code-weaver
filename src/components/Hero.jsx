@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import './Hero.css'
+import tneedle from "../assets/images/tneedle.svg";
+
 
 export default function Hero() {
   return (
@@ -17,7 +19,7 @@ export default function Hero() {
       >
         scroll ↓
       </motion.p>
-      <img class= "needles" id="topneedle" src="/assets/images/tneedle.svg" />
+      <img className= "needles" id="topneedle" src={tneedle} />
     </section>
   );
 }
