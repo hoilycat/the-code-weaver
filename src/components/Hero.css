@@ -7,3 +7,69 @@
 .needles{
     width:40%;
 }
+/* 화면에 고정되는 스티키 영역 */
+.hero-sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 네비게이션 */
+.hero-nav {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  display: flex;
+  gap: 20px;
+  z-index: 10;
+}
+
+.hero-nav a {
+  text-decoration: none;
+}
+
+/* 제목 */
+.hero-title {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+/* SVG 캔버스 스타일 */
+.needle-svg {
+  overflow: visible; /* 바늘이 회전하다 잘리지 않게 */
+}
+
+/* ★ 바늘 공통 스타일 (모양, 두께, 색상) */
+.needle-path {
+  fill: #213448;
+  stroke: #213448;
+  stroke-width: 0.5px;
+  
+  /* ★ 회전축 좌표를 여기에 고정 */
+  transform-origin: 1907px 225px;
+}
+
+/* 스크롤 안내 문구 */
+.scroll-text {
+  position: absolute;
+  /* 위치 잡기 (부모 기준) */
+  top: 70%;  /* 위에서 50% 지점 (바늘 교차점 근처로 조정하세요) */
+  left: 48%; /* 왼쪽에서 50% 지점 */
+  
+  /* 정중앙 정렬 보정 (자신 크기의 절반만큼 되돌리기) */
+  transform: translate(-50%, -50%);
+  
+  /* 꾸미기 */
+  font-size: 0.9rem;
+  font-family: serif;
+  opacity: 0.8;
+  
+  /* 혹시 바늘 뒤로 숨으면 안 되니까 우선순위 높이기 */
+  z-index: 10; 
+  /* (중요) 마우스 이벤트를 통과시켜서, 글자 위에서도 스크롤이 먹히게 하기 */
+  pointer-events: none;
+}
