@@ -5,17 +5,38 @@ h1 {
 }
 
 :root {
-  --bg-color: #ede4d5;
-  --dark-color: #1a252f;
-  --accent-blue: #9cb4bf;
-  --text-main: #2c3e50;
+  --bg-color: #EAE0CF;
+  --dark-color: #213448;
+  --accent-blue: #94B4C1;
+  --text-main: #213448;
 }
+
+@font-face {
+  font-family: "superclarendon";
+  src: url("/assets/fonts/superclarendon-bl-587272f656611.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+0000-00FF; /* 영어 + 기본 라틴 */
+}
+
+@font-face {
+  font-family: "RIDIBatang";
+  src: url("/assets/fonts/RIDIBatang.otf") format("otf");
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+AC00-D7A3; /* 한글 음절 */
+}
+
+
 
 body {
   margin: 0;
   padding: 0;
   background-color: var(--bg-color);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 
+    "RIDIBatang",
+    "superclarendon",
+    sans-serif;
   color: var(--text-main);
 }
 

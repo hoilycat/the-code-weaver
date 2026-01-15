@@ -63,7 +63,7 @@ export default function About() {
   const { scrollYProgress } = useScroll({ target: containerRef, offset: ["start start", "end end"] });
 
   return (
-    <section ref={containerRef} style={{ height: "600vh", backgroundColor: "#f2e9dc", position: "relative" }}>
+    <section ref={containerRef} style={{ height: "600vh", position: "relative" }}>
       <div style={{ position: "sticky", top: "0", height: "100vh", width: "100%", overflow: "hidden" }}>
         
         {/* STEP 1: 왼쪽 (0.0 ~ 0.2) */}
