@@ -1,0 +1,48 @@
+/* Project.css */
+.project-section {
+  background-color: #F9F7F2; /* Warm Ivory [cite: 274] */
+  padding: 100px 5%;
+  min-height: 100vh;
+}
+
+.woven-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background-color: #2E5A47; /* Deep Forest Green [cite: 275] */
+  color: #F9F7F2;
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  font-family: 'Gothic', sans-serif; /* 본문 고딕체 [cite: 279] */
+  
+  /* GSAP 애니메이션을 위해 초기 위치를 위로 잡아줍니다 */
+  opacity: 0;
+  transform: translateY(-50px);
+}
+
+.project-card.large {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.project-card.small {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.project-card h3 {
+  font-family: 'Myeongjo', serif; /* 제목 명조체 [cite: 278] */
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
