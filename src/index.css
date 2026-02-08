@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-:root {
-  --bg-color: #ede4d5;     /* 배경 베이지 */
-  --dark-navy: #1a252f;    /* 어두운 네이비 */
-  --accent-blue: #9cb4bf;  /* 프로젝트 박스 하늘색 */
-=======
 
 :root {
   --bg-color: #EAE0CF;
@@ -78,8 +72,10 @@ h1 {
   font-size: 3rem;
   text-align: center;
   margin-top: 40vh;
->>>>>>> test
+
 }
+
+
 /* 전체 화면에 노이즈 질감 입히기 */
 body::before {
   content: "";
